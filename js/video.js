@@ -14,7 +14,7 @@ window.addEventListener("load", function() {
 document.querySelector("#play").addEventListener("click", function() {
 	video = document.querySelector("#player1");
 	// play the video
-	console.log("Play Video");
+	console.log("Play video");
 	video.play();
 	// update volume information
 	
@@ -24,7 +24,7 @@ document.querySelector("#play").addEventListener("click", function() {
 document.querySelector("#pause").addEventListener("click", function() {
 	video = document.querySelector("#player1");
 	// pause the video
-	console.log("Pause Video");
+	console.log("Pause video");
 	video.pause();
 });
 
